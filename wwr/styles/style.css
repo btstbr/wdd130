@@ -1,89 +1,172 @@
 
+.home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
 
 .logo {
     width: 80px;
 }
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
+
+#logo_link {
+    padding-top: 5px;
+}
+
 #content
 div {
     max-width: 1600px;
     margin: 0 auto;
-  }
+}
 
 body {
-    background-color: rgb(196, 203, 224); 
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
+h2 {    margin: 0;
+}
+
 header {
     background-color:rgba(1, 11, 48, 0.7);
 }
+
 nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+    padding: 35px;
 }
+
 nav a:hover {
     background-color: black;
 }
+
 .book {
-    background-color: rgb(196, 203, 224);
+    background-color: rgb(79, 99, 158);
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
+
 .join {
-    background-color: rgb(196, 203, 224);
+    background-color: rgb(79, 99, 158);
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
+
+.card-img {
+    border: 10px solid rgba(1, 11, 48, 0.7);
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.rivers-card {
+    margin: 200px 0;
+}
+
+.camping-card {
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
+}
+
+.mountains {
+    margin-top:  100px;
+    margin-bottom: 200px;
+}
+
 .book:hover {
     background-color: rgb(196, 203, 224);
     color: black;
 }
+
 .join:hover {
     background-color: rgb(196, 203, 224);
     color: black;
 }
+
 #hero {
     text-align: center;
     color: black;
 }
+
 #hero-msg h1 {
     text-align: center;
     color: black;
 }
+
 #hero-msg h4 {
     text-align: center;
     color: black;
 }
+
 #button-box {
     text-align: center;
     color: black;
 }
+
 main section {
     text-align: center;
     color: black;
 }
+
 #background {
     height: 725px;
-    background-color: rgb(196, 203, 224);
+    background-color: rgb(180, 182, 196);
     color: black;
 }
+
 .msg {
-    background-color: rgb(196, 203, 224);
+    background-color: rgb(180, 182, 196);
     color: black;
+    line-height: 1.5em;
+    padding: 35px;
 }
+
+.msg h2 {font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+}
+
+.msg p {padding-bottom: 15px;
+}
+
 footer {
-    background-color: rgb(196, 203, 224);
+    background-color: rgb(180, 182, 196);
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
+
 footer a {
     text-decoration: none;
 }
+
 footer p {
-    font-size: 1.2em;
+    font-size: 1em;
 }
+
 footer p a:hover {
     text-decoration: none;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
