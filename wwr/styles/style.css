@@ -94,6 +94,23 @@ main.home-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
  }
 
+ main.rivers-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+ }
+
+.river1-img {
+    width: 40%;
+}
+
+.river2-img {
+    width: 40%;
+}
+
+.river3-img {
+    width: 40%;
+}
+
 main section img {
     box-sizing: border-box;
 }
