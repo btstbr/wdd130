@@ -19,11 +19,11 @@ Fonts are separated by a | */
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #403D39;
-  --nav-link-color: white;
-  --nav-background-color: #EB5E28;
+  --paragraph-background-color: #EB5E28;
+  --nav-link-color: #403D39;
+  --nav-background-color: #CCC5B9;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --nav-hover-background-color: #EB5E28;
 }
 
 
@@ -32,6 +32,7 @@ Fonts are separated by a | */
 body {
   max-width: 1200px;
   margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
   padding: 4em;
   font-size: 18px;
   text-align: center;
@@ -42,7 +43,7 @@ img {
   width: 200px;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(Rock Salt, Bradley Hand, sans-serif);
+  font-family:  'Poppins', sans-serif;
   color: var(--headline-color-on-white);
 }
 h2 {
@@ -64,7 +65,7 @@ header > h1, header > h2 {
 }
 
 p {
-  font-family: var(Rock Salt, Bradley Hand, sans-serif);
+  font-family:  'Poppins', sans-serif;
   color: var(--paragraph-color-on-white);
   padding: 1em;
 }
