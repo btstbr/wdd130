@@ -152,11 +152,6 @@ a,
     transition: all .3s ease-in-out;
 }
 
-img {
-    max-width: 200px;
-    height: auto;
-}
-
  :focus {
     outline: 0;
 }
@@ -509,9 +504,10 @@ button {
 }
 
 .about_img {
-    width:200px;
-    height:200px;
+    max-width:900px;
+    max-height:800px;
     padding:10px;
+    margin-top: 5%;
 
 }
 
