@@ -257,7 +257,7 @@ button {
 /* banner section start */
 
 .banner_section {
-    width: 100%;
+    width: auto;
     float: left;
     background-image: url(../images/banner-bg.png);
     height: auto;
@@ -724,11 +724,12 @@ button {
 /* footer section start */
 
 .footer_section {
-    width: 100%;
+    width: 120%;
     float: left;
     background-color: #353535;
     height: auto;
     padding: 90px 0px;
+    margin-top: 100px;
 }
 
 .location_main {
